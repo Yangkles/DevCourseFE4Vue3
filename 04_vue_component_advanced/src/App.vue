@@ -1,5 +1,6 @@
 <script setup>
 import EmitApp from './components/emit/EmitApp.vue';
+import MittApp from './components/mitt/MittApp.vue';
 import PropsApp from './components/props/PropsApp.vue';
 import ProvideApp from './components/provide_inject/ProvideApp.vue';
 import VmodelApp from './components/vmodel/VmodelApp.vue';
@@ -19,6 +20,7 @@ import VmodelApp from './components/vmodel/VmodelApp.vue';
   <EmitApp />
   <VmodelApp/>
   <ProvideApp/>
+  <MittApp />
 </template>
 
 

@@ -7,6 +7,6 @@ const msg = inject('Child-Messgae');
 
 <template>
     <div class="child">
-        msg : {{ msg }} <br>
+        ChildMessage : {{ msg ? msg : '전달되지 않음' }} <br>
     </div>
 </template>

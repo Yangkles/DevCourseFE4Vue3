@@ -22,5 +22,10 @@ import ParentComponent2 from './ParentComponent2.vue';
     - String, Number, Boolean, Array, Object, Date, Function, Symbol, Error 적용가능<br>
     <ParentComponent2/>
     <hr><br>
+
+    <h3>1.3 유효성 검사</h3>
+    - 속성의 타입, 필수 여부, 기본값, 유효 데이터(특정 문자열, 숫자 범위)등을 검사 가능 <br>
+    <ParentComponent3/>
+    <hr><br>
 </template>
 

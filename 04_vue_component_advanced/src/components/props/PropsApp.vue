@@ -1,5 +1,6 @@
 <script setup>
 import ParentComponent1 from './ParentComponent1.vue';
+import ParentComponent2 from './ParentComponent2.vue';
 
 
 </script>
@@ -15,6 +16,11 @@ import ParentComponent1 from './ParentComponent1.vue';
     <hr>
     <h3>1.1 기본 예제</h3>
     <ParentComponent1/>
+    <hr><br>
+
+    <h3>1.2 다양한 속성 정의</h3>
+    - String, Number, Boolean, Array, Object, Date, Function, Symbol, Error 적용가능<br>
+    <ParentComponent2/>
     <hr><br>
 </template>
 

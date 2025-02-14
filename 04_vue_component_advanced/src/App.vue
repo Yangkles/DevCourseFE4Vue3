@@ -1,6 +1,7 @@
 <script setup>
 import EmitApp from './components/emit/EmitApp.vue';
 import PropsApp from './components/props/PropsApp.vue';
+import VmodelApp from './components/vmodel/VmodelApp.vue';
 
 
 </script>
@@ -15,6 +16,7 @@ import PropsApp from './components/props/PropsApp.vue';
   <hr>
   <PropsApp/>
   <EmitApp />
+  <VmodelApp/>
 </template>
 
 

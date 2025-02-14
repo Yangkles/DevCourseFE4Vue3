@@ -1,5 +1,5 @@
 <script setup>
-import ChildComponent3 from './ChildCOmponent3.vue';
+import ChildComponent3 from './ChildComponent3.vue';
 
 
 </script>

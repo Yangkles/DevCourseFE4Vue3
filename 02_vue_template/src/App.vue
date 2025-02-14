@@ -1,7 +1,9 @@
 <script setup>
 import DirectiveConditionalRendering from './components/DirectiveConditionalRendering.vue';
+import DirectiveETC from './components/DirectiveETC.vue';
 import DirectiveVbind from './components/DirectiveVbind.vue';
 import DirectiveVmodel from './components/DirectiveVmodel.vue';
+import DirectiveVonce from './components/DirectiveVonce.vue';
 import DirectiveVonEvent from './components/DirectiveVonEvent.vue';
 import TextInterpolation from './components/TextInterpolation.vue';
 
@@ -22,10 +24,15 @@ import TextInterpolation from './components/TextInterpolation.vue';
   - v- 접두사를 사용하며, Vue의 반응형 시스템과 결합하여 동적인 동작을 수행할 수 있다. <br>
   - 주로 속성 바인딩, 양방향 바인딩 또는 분기문, 반복문 등을 표현할 때 활용 된다.<br>
   <hr><br>
+
   <DirectiveVbind/>
   <DirectiveVmodel/>
-  <DirectiveConditionalRendering />
+  <DirectiveConditionalRendering/>
   <DirectiveVonEvent/>
+  <DirectiveETC/>
+  <DirectiveVonce/>
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
 </template>
-
-

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Vue 3 CDN 추가 -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ message }}</h1>
+    </div>
+    <script>
+      const app = Vue.createApp({
+        data() {
+          return { message: "Hello, Vue CDN!" };
+        },
+      });
+      app.mount("#app"); // Vue 앱을 #app 요소에 연결
+    </script>
+  </body>
+</html>

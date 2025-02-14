@@ -1,4 +1,5 @@
 <script setup>
+import EmitApp from './components/emit/EmitApp.vue';
 import PropsApp from './components/props/PropsApp.vue';
 
 
@@ -13,6 +14,7 @@ import PropsApp from './components/props/PropsApp.vue';
   - 외부 layout과 상호작용이 가능하며 props, emits 개념 활용 가능 <br>
   <hr>
   <PropsApp/>
+  <EmitApp />
 </template>
 
 

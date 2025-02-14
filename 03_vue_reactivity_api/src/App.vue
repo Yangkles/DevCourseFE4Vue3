@@ -1,6 +1,7 @@
 <script setup>
 import ComputedApp from './components/computed/ComputedApp.vue';
 import ReactiveApp from './components/reactive/ReactiveApp.vue';
+import ReadonlyApp from './components/readonly/ReadonlyApp.vue';
 import RefApp from './components/ref/RefApp.vue';
 import WatchApp from './components/watch/WatchApp.vue';
 import WatchEffectApp from './components/watchEffect/WatchEffectApp.vue';
@@ -19,6 +20,7 @@ import WatchEffectApp from './components/watchEffect/WatchEffectApp.vue';
   <ComputedApp />
   <WatchApp />
   <WatchEffectApp />
+  <ReadonlyApp />
 
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

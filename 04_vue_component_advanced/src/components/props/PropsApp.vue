@@ -1,6 +1,8 @@
 <script setup>
 import ParentComponent1 from './ParentComponent1.vue';
 import ParentComponent2 from './ParentComponent2.vue';
+import ParentComponent3 from './ParentComponent3.vue';
+import ParentComponent4 from './ParentComponent4.vue';
 
 
 </script>
@@ -26,6 +28,11 @@ import ParentComponent2 from './ParentComponent2.vue';
     <h3>1.3 유효성 검사</h3>
     - 속성의 타입, 필수 여부, 기본값, 유효 데이터(특정 문자열, 숫자 범위)등을 검사 가능 <br>
     <ParentComponent3/>
+    <hr><br>
+
+    <h3>1.4 불리언 캐스팅(Boolean Casting)</h3>
+    - disabled="disabled"나 disabled만 있어도 true 변환된다. <br>
+    <ParentComponent4/>
     <hr><br>
 </template>
 

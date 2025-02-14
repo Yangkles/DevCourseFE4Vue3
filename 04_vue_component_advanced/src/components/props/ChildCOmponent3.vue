@@ -35,11 +35,11 @@ defineProps({
 <template>
     <div class="child">
         <h2>Child Component</h2>
-        propA (Number): {{ propA }} <br>
-        propB (String or Number): {{ propB }} <br>
-        propC (Required String): {{ propC }} <br>
-        propD (Required String or Null): {{ propD }} <br>
-        propE (Number with Default 100): {{ propE }} <br>
-        propF ('성공', '경고', '위험'): {{ propG }} <br>
+        propsA (Number): {{ propsA }} <br>
+        propsB (String or Number): {{ propsB }} <br>
+        propsC (Required String): {{ propsC }} <br>
+        propsD (Required String or Null): {{ propsD }} <br>
+        propsE (Number with Default 100): {{ propsE }} <br>
+        propsF ('성공', '경고', '위험'): {{ propsG }} <br>
     </div>
 </template>
